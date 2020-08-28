@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:extended="clr-namespace:Xamarin.Forms.Extended;assembly=Xamarin.Forms.Extended.InfiniteScrolling"
+             xmlns:local="clr-namespace:NetflixMoviesSearchApp"
+             x:Class="NetflixMoviesSearchApp.MainPage">
+
+    <StackLayout Spacing="20" Padding="0,20" x:Name="ScreenLayout">
+        <Label Text="Movies" FontSize="Large"  HorizontalOptions="Center" VerticalOptions="Center" TextColor="Black" IsEnabled="False"/>
+        <StackLayout Orientation="Horizontal">
+            <SearchBar Placeholder="Search by name..." x:Name="searchBar"  SearchButtonPressed="searchBar_SearchButtonPressed"/>
+            <Button BackgroundColor="Transparent" Text="Cancel" Padding="0,0,30,0" Clicked="Button_Clicked"/>
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>

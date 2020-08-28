@@ -1,0 +1,15 @@
+C:\Users\anton\OneDrive\Documents\GitHub\NetflixMoviesSearchApp\NetflixMoviesSearchApp\bin\Debug\netstandard2.0\NetflixMoviesSearchApp.deps.json
+C:\Users\anton\OneDrive\Documents\GitHub\NetflixMoviesSearchApp\NetflixMoviesSearchApp\bin\Debug\netstandard2.0\NetflixMoviesSearchApp.dll
+C:\Users\anton\OneDrive\Documents\GitHub\NetflixMoviesSearchApp\NetflixMoviesSearchApp\bin\Debug\netstandard2.0\ref\NetflixMoviesSearchApp.dll
+C:\Users\anton\OneDrive\Documents\GitHub\NetflixMoviesSearchApp\NetflixMoviesSearchApp\bin\Debug\netstandard2.0\NetflixMoviesSearchApp.pdb
+C:\Users\anton\OneDrive\Documents\GitHub\NetflixMoviesSearchApp\NetflixMoviesSearchApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\anton\OneDrive\Documents\GitHub\NetflixMoviesSearchApp\NetflixMoviesSearchApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\anton\OneDrive\Documents\GitHub\NetflixMoviesSearchApp\NetflixMoviesSearchApp\obj\Debug\netstandard2.0\MovieProfile.xaml.g.cs
+C:\Users\anton\OneDrive\Documents\GitHub\NetflixMoviesSearchApp\NetflixMoviesSearchApp\obj\Debug\netstandard2.0\MoviesListView.xaml.g.cs
+C:\Users\anton\OneDrive\Documents\GitHub\NetflixMoviesSearchApp\NetflixMoviesSearchApp\obj\Debug\netstandard2.0\NetflixMoviesSearchApp.AssemblyInfoInputs.cache
+C:\Users\anton\OneDrive\Documents\GitHub\NetflixMoviesSearchApp\NetflixMoviesSearchApp\obj\Debug\netstandard2.0\NetflixMoviesSearchApp.AssemblyInfo.cs
+C:\Users\anton\OneDrive\Documents\GitHub\NetflixMoviesSearchApp\NetflixMoviesSearchApp\obj\Debug\netstandard2.0\NetflixMoviesSearchApp.csproj.CoreCompileInputs.cache
+C:\Users\anton\OneDrive\Documents\GitHub\NetflixMoviesSearchApp\NetflixMoviesSearchApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\anton\OneDrive\Documents\GitHub\NetflixMoviesSearchApp\NetflixMoviesSearchApp\obj\Debug\netstandard2.0\NetflixMoviesSearchApp.dll
+C:\Users\anton\OneDrive\Documents\GitHub\NetflixMoviesSearchApp\NetflixMoviesSearchApp\obj\Debug\netstandard2.0\ref\NetflixMoviesSearchApp.dll
+C:\Users\anton\OneDrive\Documents\GitHub\NetflixMoviesSearchApp\NetflixMoviesSearchApp\obj\Debug\netstandard2.0\NetflixMoviesSearchApp.pdb

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NetflixMoviesSearchApp.MovieProfile">
+    <ScrollView>
+        <StackLayout>
+            <Label Text="{Binding Title}" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Large" TextColor="Black" FontAttributes="Bold"/>
+            <Image Source="{Binding ImageUrl}" HorizontalOptions="Center" VerticalOptions="Start" HeightRequest="400" WidthRequest="400 "/>
+            <Label Text="{Binding Overview}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HorizontalOptions="Center" VerticalOptions="Center" FontSize="Medium"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

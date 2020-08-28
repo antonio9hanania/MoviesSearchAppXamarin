@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<ListView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:extended="clr-namespace:Xamarin.Forms.Extended;assembly=Xamarin.Forms.Extended.InfiniteScrolling"
+             x:Class="NetflixMoviesSearchApp.MoviesListView"
+        ItemsSource="{Binding Movies}"
+                  HasUnevenRows="True" 
+          IsRefreshing="{Binding IsRefreshing}" ItemSelected="ListView_ItemSelected">
+        <ListView.Behaviors>
+            <extended:InfiniteScrollBehavior IsLoadingMore="{Binding IsBusy}"/>            
+        </ListView.Behaviors>
+
+        <ListView.ItemTemplate>
+            <DataTemplate >
+                <ImageCell ImageSource="{Binding ImageUrl}" Text="{Binding Title}" Detail="{Binding Year}"/>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+        <ListView.Footer>
+            <Grid IsVisible="{Binding IsBusy}">
+                <Grid.Triggers>
+                    <Trigger TargetType="Grid"
+                                 Property="IsVisible"
+                                 Value="False">
+                        <Setter Property="HeightRequest"
+                                    Value="0"/>
+                    </Trigger>
+                </Grid.Triggers>
+                <Label Text="Loading..."
+                           TextColor="Green"
+                           VerticalOptions="Center"
+                           HorizontalOptions="Center"
+                           FontAttributes="Bold"
+                           FontSize="Medium"/>
+            </Grid>
+        </ListView.Footer>
+    </ListView>
