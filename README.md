@@ -1,8 +1,8 @@
-A cross platform app based on Xamarin Forms.
-Making a use in InfiniteScrolling in the main view to show the search results.
+A cross platform app based on Xamarin Forms.</br>
+Using 3rd party nuget- InfiniteScrolling, at the main screen to show the search results and load them when scrolling down.
 Movies api that I used - themoviedb.
 
 App made for an education reasons.
 
 
-![](Demo.gif)
+<img src="Demo.gif"  height="30%" width="30%" >
