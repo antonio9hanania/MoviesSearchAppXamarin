@@ -5,4 +5,4 @@ Movies api that I used - themoviedb.
 App made for an education reasons.
 
 
-<img src="Demo.gif"  height="30%" width="30%" >
+<img src="Demo.gif"  height="40%" width="40%" margin="auto">
